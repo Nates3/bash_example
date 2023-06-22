@@ -11,7 +11,6 @@ source "$local_path/build_params.sh"
 mkdir -p $build_path
 cd $build_path
 
-# Compile the platform into an .obj file (ASSUMES COMPILER IS MSVC)
 echo ____compiling____
 $compiler $compile_options $incs $unit_file
 echo ____linking____
